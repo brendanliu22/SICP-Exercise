@@ -7,7 +7,7 @@
 )
 
 (define (reverse src)
-	(reverse-internal (cdr src) (list (car src)))
+	(reverse-internal src (list))
 )
 
 (print (reverse (list 1 4 9 16 25)))
